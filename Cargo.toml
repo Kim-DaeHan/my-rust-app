@@ -13,4 +13,8 @@ path = "src/main.rs"
 name = "tuple"
 path = "src/tuple.rs"
 
+[[bin]]
+name = "struct"
+path = "src/struct.rs"
+
 [dependencies]
