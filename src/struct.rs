@@ -10,7 +10,7 @@ fn main() {
         width: 30,
     };
 
-    // :? 명시자를 집어넣는 것은 println! 에게 Debug라 불리우는 출력 포맷을 사용하고 싶다고 말해줌(구조체 정의 부분 바로 전에 #[derive(Debug)] 넣어줘야함.)
+    // :? 명시자를 집어넣는 것은 println! 에게 Debug라 불리우는 출력 포맷을 사용하고 싶다고 말해줌(구조체 정의 부분 바로 전에 #[derive(Debug)] 넣어줘야함)
     println!("rect1 is {:?}", rect1);
     // 좀 더 이쁘게 출력 {:#?}
     println!("rect1 is {:#?}", rect1);
